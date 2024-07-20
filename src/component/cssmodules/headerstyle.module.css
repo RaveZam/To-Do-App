@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+}
+
+.Header {
+  text-align: left;
+  background-color: #0e1f33;
+  padding: 20px;
+  box-shadow: 0 4px 6px 0 rgb(0, 0, 0, 0.1);
+}
