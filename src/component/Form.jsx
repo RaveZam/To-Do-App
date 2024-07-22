@@ -1,11 +1,20 @@
 import styles from "./cssmodules/formstyle.module.scss";
 import { useState } from "react";
-export default function Form({ todos, setTodos }) {
+export default function Form({ todos, setTodos, setShow }) {
   const [todo, setTodo] = useState("");
 
   function handleSubmit(e) {
     e.preventDefault();
     setTodos([...todos, todo]);
+  }
+
+  function checkifempty() {
+    console.log("Hi");
+  }
+
+  function twofunctions() {
+    checkifempty();
+    setShow(true);
   }
 
   return (
@@ -18,7 +27,11 @@ export default function Form({ todos, setTodos }) {
             type="text"
             value={todo}
           />
-          <button className={styles.button} type="submit">
+          <button
+            onClick={() => twofunctions()}
+            className={styles.button}
+            type="submit"
+          >
             Add To List
           </button>
         </div>

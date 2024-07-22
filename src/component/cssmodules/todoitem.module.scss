@@ -1,0 +1,44 @@
+$green: #2ecc71;
+$red: #e74c3c;
+$blue: #3498db;
+$yellow: #f1c40f;
+$purple: #8e44ad;
+$turquoise: #1abc9c;
+
+.todoitem {
+  margin: 30px 30px 30px 30px;
+  padding: 20px 10px 20px 10px;
+  background-color: #0a1828;
+  border-radius: 20px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.51);
+}
+
+.todotext {
+  padding-left: 50px;
+}
+
+.button {
+  float: right;
+  width: 20%;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid $red;
+  border-radius: 0.6em;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  border-color: $blue;
+  box-shadow: 0 0 40px 40px $blue inset, 0 0 0 0 $blue;
+  transition: all 150ms ease-in-out;
+  border: none;
+  margin-right: 20px;
+  padding: 10px 0 10px 0;
+
+  &:hover {
+    color: #bfa181;
+    box-shadow: 0 0 10px 0 $blue inset, 0 0 10px 4px $blue;
+  }
+}
