@@ -1,0 +1,17 @@
+.tasksContainer {
+  background-color: #0e1f33;
+  margin: 0 auto;
+  margin-top: 2%;
+  width: 90%;
+  height: 80px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.237);
+  border-radius: 10px;
+  display: flex;
+}
+
+.taskslabel {
+  margin: 0 auto;
+  padding-top: 8px;
+  text-align: center;
+  width: 30%;
+}

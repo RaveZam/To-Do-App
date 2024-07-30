@@ -7,7 +7,7 @@ export default function Todomap({ todos, setTodos, setShow, show }) {
         <div className={styles.list}>
           {todos.map((item) => (
             <Todoitem
-              key={item}
+              key={item.name}
               item={item}
               todos={todos}
               setTodos={setTodos}
