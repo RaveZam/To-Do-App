@@ -1,5 +1,5 @@
 .completedtasks {
-  float: right;
   width: 50%;
-  background-color: green;
+  text-align: right;
+  padding-left: 4%;
 }
